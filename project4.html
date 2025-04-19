@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the nnumber</title>
+    <script src="project4.js" defer></script>
+    <style>
+        #playerGuess::-webkit-inner-spin-button,
+        #playerGuess::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    
+        #playerGuess {
+            -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body style="background-color: #dedeb3; color: rgb(65, 113, 154); display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+
+
+    <h1 style = "background-color: rgb(188, 215, 114);">The number guessing game</h1>
+
+    <p>Guess a random number within 10 attempts. <br> the number will be between 1 to 100</p>
+
+
+<h1> Guess the number</h1>
+<input type="number" value = "0" id="playerGuess" style="text-align: center; height: 40px; width: 120px; font-size: 35px;">
+
+<input type="button" value="Guess" id = "button" style="height: 40px; width: 130px;"><BR>
+<h2>Attempt Left:</h2>
+<div id = "attemptLeft" style="font-size: 35px; background-color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"></div>
+
+<div id = "failedGuess" style="font-size: 20px; background-color:antiquewhite; text-align: center;"> <div>
+
+
+    
+</body>
+</html>
