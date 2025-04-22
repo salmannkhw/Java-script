@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keyboard check</title>
+    <script>
+        addEventListener("keypress", function (e) {
+        document.getElementById("show").textContent = e.key
+        })
+    </script>
+</head>
+<body style="display: flex; align-items: center; justify-content: center; background-color: #f0f0f0; flex-direction: column;">
+
+    <h1>Check your key pressed</h1>
+    <div id = "show" style="height: 200px; width: 200px; background-color: antiquewhite; font-size: 150px; display: flex; align-items: center; justify-content: center;"></div>
+      
+    
+</body>
+</html>
